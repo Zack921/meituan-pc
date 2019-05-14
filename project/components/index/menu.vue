@@ -5,7 +5,7 @@
       @mouseleave="mouseleave">
       <dt>全部分类</dt>
       <dd 
-        v-for="(item, index) in navData"
+        v-for="(item, index) in $store.state.menu.menu"
         :key="index"
         @mouseenter="mouseenter">
         <i :class="item.type" />{{ item.name }}<span class="arrow"/>
@@ -29,27 +29,12 @@ export default {
   components: {},
   data() {
     return {
-      kind: '',
-      navData: [{
-        type: 'food',
-        name: '美食',
-        child: [{
-          title: '美食',
-          child: ['代金券', '甜品']
-        }]
-      },{
-        type: 'takeout',
-        name: '外卖',
-        child: [{
-          title: '美团外卖',
-          child: ['美团外卖']
-        }]
-      }]
+      kind: ''
     }
   },
   computed: {
     detailContent: function(){
-      return this.navData.filter(item => item.type === this.kind)[0];
+      return this.$store.state.menu.menu.filter(item => item.type === this.kind)[0];
     }
   },
   watch: {},

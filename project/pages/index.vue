@@ -5,19 +5,28 @@
         <emenu/>
       </el-col>
       <el-col :span="19">
-        2
+        <elife/>
+      </el-col>
+    </el-row>
+    <el-row>
+      <el-col :span="24">
+        <Eartistic/>
       </el-col>
     </el-row>
   </div>
 </template>
 
 <script>
-  import emenu from '@/components/index/menu.vue'
-  export default {
-    components: {
-      emenu
-    }
+import emenu from '@/components/index/menu.vue'
+import Elife from '@/components/index/life.vue'
+import Eartistic from '@/components/index/artistic.vue'
+export default {
+  components: {
+    emenu,
+    Elife,
+    Eartistic
   }
+}
 </script>
 
 <style lang="scss">

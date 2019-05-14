@@ -68,14 +68,15 @@
 </template>
 
 <script>
+import _ from 'lodash';
 export default {
   components: {},
   data() {
     return {
       isFocus: false,
       input: '',
-      hotPlaceData: ['故宫博物院', '故宫博物院', '故宫博物院'],
-      searchPlaceData: ['故宫博物院', '故宫博物院', '故宫博物院']
+      hotPlaceData: [],
+      searchPlaceData: []
     }
   },
   computed: {
@@ -84,6 +85,17 @@ export default {
     },
     isSearchPlace: function(){
       return this.isFocus && this.input;
+    }
+  },
+  async mounted(){
+    const _self = this;
+    const {status, data:{result}} = await this.$axios.get('/home/hotSearch',{
+      params:{
+        city: _self.$store.state.city.position.city.replace('市','')
+      }
+    })
+    if(status === 200 && result){
+      this.hotPlaceData = result.map(item => item.name);
     }
   },
   watch: {},
@@ -97,10 +109,24 @@ export default {
         _self.isFocus = false;
       },200);
     },
-    handleInput: function(){
-      console.log(this.input);
-      // 发请求,替换搜索内容      
-    }
+    handleInput: _.debounce(async function() { // _.debounce: Delay function
+      this.searchPlaceData = [];
+      const _self = this;
+      const city = this.$store.state.city.position.city.replace('市', '')
+      const {status, data:{top}} = await this.$axios.get('/home/top',{
+        params: {
+          city,
+          input: _self.input
+        }
+      });
+      if(status === 200){
+        if(top.length){
+          _self.searchPlaceData = top.map(item => item.name);
+        }else{
+          _self.searchPlaceData = ['暂无数据'];
+        }
+      }
+    }, 300)
   }
 }
 </script>

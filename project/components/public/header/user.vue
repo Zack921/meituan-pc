@@ -23,6 +23,14 @@ export default {
       user: ''
     }
   },
+  async mounted(){
+    const {status, data} = await this.$axios.get('/user/getUser');
+    if (status === 200) {
+      if(data && data.code === 0){
+        this.user = data.username;
+      }
+    }
+  },
   computed: {},
   watch: {},
   methods: {}

@@ -28,11 +28,12 @@
 html, body{
   max-width: 1280px;
   margin: 0 auto;
+  background: #F8F8F8;
 }
 body{
   margin: 0;
   padding: 0;
-  background-color: #F8F8F8;
+  /* background-color: #F8F8F8; */
 }
 body *{
   margin: 0;

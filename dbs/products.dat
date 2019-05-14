@@ -1,0 +1,788 @@
+﻿{
+  "_id":{"$oid":"5b94956983d6b81e9f96c86e"},
+  "id":"440100",
+  "code": 0,
+  "keyword": "旅游",
+  "city": "广州",
+  "login": false,
+  "product": {
+      "id": "B00140AKR1",
+      "parent": [],
+      "name": "广州起义烈士陵园",
+      "tag": [],
+      "type": "风景名胜;风景名胜;国家级景点",
+      "typecode": "110202",
+      "biz_type": "tour",
+      "address": "中山二路92号",
+      "location": "113.285914,23.128828",
+      "tel": "020-83828521;020-83825037",
+      "postcode": [],
+      "website": "www.gzlsly.com",
+      "email": [],
+      "pcode": "440000",
+      "pname": "广东省",
+      "citycode": "020",
+      "cityname": "广州市",
+      "adcode": "440104",
+      "adname": "越秀区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "2",
+      "poiweight": [],
+      "gridcode": "3413525212",
+      "distance": [],
+      "alias": [],
+      "navi_poiid": "F49F011043_68632",
+      "business_area": "东风",
+      "entr_location": "113.284098,23.127464",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": [],
+      "indoor_map": "0",
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+          "rating": "3.6",
+          "cost": [],
+          "ticket_ordering": "0"
+      },
+      "event": [],
+      "indoor_data": {
+          "cpid": [],
+          "floor": [],
+          "truefloor": []
+      },
+      "photos": [
+          {
+              "title": "广州起义烈士陵园",
+              "url": "http://store.is.autonavi.com/showpic/bd8050099ddbb17c48ee6d47e324702c"
+          },
+          {
+              "title": [],
+              "url": "http://store.is.autonavi.com/showpic/675ab3ee1562eb553f91230a2c0d7aac"
+          },
+          {
+              "title": [],
+              "url": "http://store.is.autonavi.com/showpic/5c4be25ae5a3732a328b2d1e65af4ced"
+          }
+      ],
+      "children": []
+  },
+  "more": [
+      {
+          "id": "B00140UFDP",
+          "parent": [],
+          "name": "芙蓉峰公园",
+          "tag": [],
+          "type": "风景名胜;公园广场;公园",
+          "typecode": "110101",
+          "biz_type": "tour",
+          "address": "芙蓉度假区",
+          "location": "113.225387,23.520585",
+          "tel": "020-86853860",
+          "postcode": [],
+          "website": [],
+          "email": [],
+          "pcode": "440000",
+          "pname": "广东省",
+          "citycode": "020",
+          "cityname": "广州市",
+          "adcode": "440114",
+          "adname": "花都区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "3513212810",
+          "distance": [],
+          "alias": [],
+          "navi_poiid": "F49F006042_78",
+          "business_area": [],
+          "entr_location": "113.225773,23.520113",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "4.4",
+              "cost": [],
+              "ticket_ordering": "0"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/06060024499ae77f5aa223580d597c4d"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/962a7921e95dc3f2231a5e28e725735e"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/01baf4d061bf9e8e97c645ab5c222649"
+              }
+          ],
+          "children": []
+      },
+      {
+          "id": "B00140AKR1",
+          "parent": [],
+          "name": "广州起义烈士陵园",
+          "tag": [],
+          "type": "风景名胜;风景名胜;国家级景点",
+          "typecode": "110202",
+          "biz_type": "tour",
+          "address": "中山二路92号",
+          "location": "113.285914,23.128828",
+          "tel": "020-83828521;020-83825037",
+          "postcode": [],
+          "website": "www.gzlsly.com",
+          "email": [],
+          "pcode": "440000",
+          "pname": "广东省",
+          "citycode": "020",
+          "cityname": "广州市",
+          "adcode": "440104",
+          "adname": "越秀区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "3413525212",
+          "distance": [],
+          "alias": [],
+          "navi_poiid": "F49F011043_68632",
+          "business_area": "东风",
+          "entr_location": "113.284098,23.127464",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "3.6",
+              "cost": [],
+              "ticket_ordering": "0"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": "广州起义烈士陵园",
+                  "url": "http://store.is.autonavi.com/showpic/bd8050099ddbb17c48ee6d47e324702c"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/675ab3ee1562eb553f91230a2c0d7aac"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/5c4be25ae5a3732a328b2d1e65af4ced"
+              }
+          ],
+          "children": []
+      },
+      {
+          "id": "B00141KBU0",
+          "parent": [],
+          "name": "南粤苑",
+          "tag": [],
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "biz_type": "tour",
+          "address": "宝墨园对面",
+          "location": "113.289725,22.897857",
+          "tel": "020-84746666;020-84747238",
+          "postcode": [],
+          "website": [],
+          "email": [],
+          "pcode": "440000",
+          "pname": "广东省",
+          "citycode": "020",
+          "cityname": "广州市",
+          "adcode": "440113",
+          "adname": "番禺区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "3413227320",
+          "distance": [],
+          "alias": [],
+          "navi_poiid": "F49F014043_4769",
+          "business_area": [],
+          "entr_location": "113.291335,22.896872",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "4.4",
+              "cost": "50.00",
+              "ticket_ordering": "1"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/b9948052a3414fac94c4b010e4d779d4"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/b666313e8e94c8d659c27d2925ad1368"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/98d9ffa4da6a889d8b6f647dd10fbc74"
+              }
+          ],
+          "children": []
+      },
+      {
+          "id": "B00141K28M",
+          "parent": [],
+          "name": "长洲岛",
+          "tag": [],
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "biz_type": "tour",
+          "address": "长洲文化旅游度假村海洋路3号",
+          "location": "113.436186,23.076394",
+          "tel": [],
+          "postcode": [],
+          "website": [],
+          "email": [],
+          "pcode": "440000",
+          "pname": "广东省",
+          "citycode": "020",
+          "cityname": "广州市",
+          "adcode": "440112",
+          "adname": "黄埔区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "3413439402",
+          "distance": [],
+          "alias": [],
+          "navi_poiid": [],
+          "business_area": [],
+          "entr_location": "113.432263,23.081098",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "4.3",
+              "cost": [],
+              "ticket_ordering": "0"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/6dccba061e2371667ecfd0a4a304e7c8"
+              },
+              {
+                  "title": "长洲岛[广州]",
+                  "url": "http://store.is.autonavi.com/showpic/f948c0ccfff010b4d2a578c88f482abd"
+              },
+              {
+                  "title": "长洲岛[广州]",
+                  "url": "http://store.is.autonavi.com/showpic/14f24ea094558a32467937a2be261434"
+              }
+          ],
+          "children": []
+      },
+      {
+          "id": "B00140W71L",
+          "parent": [],
+          "name": "岭南印象园",
+          "tag": [],
+          "type": "风景名胜;风景名胜;国家级景点",
+          "typecode": "110202",
+          "biz_type": "tour",
+          "address": "大学城外环西路",
+          "location": "113.405842,23.035895",
+          "tel": "020-39340555;020-39341333",
+          "postcode": [],
+          "website": [],
+          "email": [],
+          "pcode": "440000",
+          "pname": "广东省",
+          "citycode": "020",
+          "cityname": "广州市",
+          "adcode": "440113",
+          "adname": "番禺区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "3413434201",
+          "distance": [],
+          "alias": [],
+          "navi_poiid": "F49F012044_1179",
+          "business_area": [],
+          "entr_location": "113.403763,23.03616",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "4.5",
+              "cost": "60.00",
+              "ticket_ordering": "1"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/3a8aeea6b35b58c81f93519e50390f56"
+              },
+              {
+                  "title": "外景图",
+                  "url": "http://store.is.autonavi.com/showpic/27bdb6bc9c2a35aea92ecb665e78d7fe"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/56920bea3fb7309ac2f8b96f8ed646da"
+              }
+          ],
+          "children": []
+      }
+  ]
+}
+{
+  "_id":{"$oid":"5b94956983d6b81e9f96c85c"},
+  "id":110100,
+  "keyword": "旅游",
+  "city": "北京",
+  "login": false,
+  "code": 0,
+  "product": {
+      "id": "B000A45467",
+      "parent": [],
+      "name": "八达岭长城",
+      "tag": [],
+      "type": "风景名胜;风景名胜;国家级景点",
+      "typecode": "110202",
+      "biz_type": "tour",
+      "address": "G6京藏高速58号出口",
+      "location": "116.016802,40.356188",
+      "tel": "010-69121226;010-69121383",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "110000",
+      "pname": "北京市",
+      "citycode": "010",
+      "cityname": "北京市",
+      "adcode": "110119",
+      "adname": "延庆区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "2",
+      "poiweight": [],
+      "gridcode": "6016402121",
+      "distance": [],
+      "alias": [],
+      "navi_poiid": "K50F044017_7",
+      "business_area": "八达岭",
+      "entr_location": "115.989811,40.361298",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": [],
+      "indoor_map": "0",
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+          "rating": "4.8",
+          "cost": "35.00",
+          "ticket_ordering": "1"
+      },
+      "event": [],
+      "indoor_data": {
+          "cpid": [],
+          "floor": [],
+          "truefloor": []
+      },
+      "photos": [
+          {
+              "title": [],
+              "url": "http://store.is.autonavi.com/showpic/a33b67b2c426aaeb9ffdf91d28d79139"
+          },
+          {
+              "title": [],
+              "url": "http://store.is.autonavi.com/showpic/e73b1c64bc1873cec6213afb7012e08e"
+          },
+          {
+              "title": "外景图",
+              "url": "http://store.is.autonavi.com/showpic/5c5344fd36d909b188a4926d82dba76e"
+          }
+      ],
+      "children": []
+  },
+  "more": [
+      {
+          "id": "B0FFF5UVBM",
+          "parent": "B000A7Y0K2",
+          "name": "八达岭国家森林公园-八达岭水关长城",
+          "tag": [],
+          "type": "风景名胜;风景名胜;国家级景点",
+          "typecode": "110202",
+          "biz_type": "tour",
+          "address": "八达岭石佛寺村",
+          "location": "116.037967,40.338331",
+          "tel": "010-81181505;010-81181038",
+          "postcode": [],
+          "website": "www.bdlsg.com",
+          "email": [],
+          "pcode": "110000",
+          "pname": "北京市",
+          "citycode": "010",
+          "cityname": "北京市",
+          "adcode": "110119",
+          "adname": "延庆区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "6016400310",
+          "distance": [],
+          "alias": [],
+          "navi_poiid": "K50F044017_5",
+          "business_area": "八达岭",
+          "entr_location": "116.038098,40.338116",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "4.5",
+              "cost": "40.00",
+              "ticket_ordering": "1"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/ae1c7bfa2a39b15a0dad0ef89ed896bd"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/15d102b09dea23b06cdb7d01b2e189c7"
+              },
+              {
+                  "title": "水关长城",
+                  "url": "http://store.is.autonavi.com/showpic/bed156115b7d8604bb3107a6373f6a7f"
+              }
+          ],
+          "children": []
+      },
+      {
+          "id": "B000A45467",
+          "parent": [],
+          "name": "八达岭长城",
+          "tag": [],
+          "type": "风景名胜;风景名胜;国家级景点",
+          "typecode": "110202",
+          "biz_type": "tour",
+          "address": "G6京藏高速58号出口",
+          "location": "116.016802,40.356188",
+          "tel": "010-69121226;010-69121383",
+          "postcode": [],
+          "website": [],
+          "email": [],
+          "pcode": "110000",
+          "pname": "北京市",
+          "citycode": "010",
+          "cityname": "北京市",
+          "adcode": "110119",
+          "adname": "延庆区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "6016402121",
+          "distance": [],
+          "alias": [],
+          "navi_poiid": "K50F044017_7",
+          "business_area": "八达岭",
+          "entr_location": "115.989811,40.361298",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "4.8",
+              "cost": "35.00",
+              "ticket_ordering": "1"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/a33b67b2c426aaeb9ffdf91d28d79139"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/e73b1c64bc1873cec6213afb7012e08e"
+              },
+              {
+                  "title": "外景图",
+                  "url": "http://store.is.autonavi.com/showpic/5c5344fd36d909b188a4926d82dba76e"
+              }
+          ],
+          "children": []
+      },
+      {
+          "id": "B000A7O1CU",
+          "parent": [],
+          "name": "颐和园",
+          "tag": [],
+          "type": "风景名胜;风景名胜;世界遗产",
+          "typecode": "110201",
+          "biz_type": "tour",
+          "address": "新建宫门路19号",
+          "location": "116.275115,39.999686",
+          "tel": "010-62881144",
+          "postcode": "100000",
+          "website": "www.summerpalace-china.com",
+          "email": [],
+          "pcode": "110000",
+          "pname": "北京市",
+          "citycode": "010",
+          "cityname": "北京市",
+          "adcode": "110108",
+          "adname": "海淀区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "5916729102",
+          "distance": [],
+          "alias": [],
+          "navi_poiid": "J50F001019_528673",
+          "business_area": [],
+          "entr_location": "116.274005,40.002793",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "4.7",
+              "cost": "20.00",
+              "ticket_ordering": "1"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/1c9269dcd55a29849e483cc6d8fb56ff"
+              },
+              {
+                  "title": "颐和园",
+                  "url": "http://store.is.autonavi.com/showpic/537af781ba5b51ee9cb5343d3f9c432c"
+              },
+              {
+                  "title": "颐和园",
+                  "url": "http://store.is.autonavi.com/showpic/a03a694242d9f21903e541ad80c7b0b5"
+              }
+          ],
+          "children": []
+      },
+      {
+          "id": "B000A8UIN8",
+          "parent": [],
+          "name": "故宫博物院",
+          "tag": [],
+          "type": "科教文化服务;博物馆;博物馆|风景名胜;风景名胜;世界遗产",
+          "typecode": "140100|110201",
+          "biz_type": [],
+          "address": "景山前街4号",
+          "location": "116.397026,39.918058",
+          "tel": "010-85007114;010-85007938",
+          "postcode": [],
+          "website": "www.dpm.org.cn",
+          "email": [],
+          "pcode": "110000",
+          "pname": "北京市",
+          "citycode": "010",
+          "cityname": "北京市",
+          "adcode": "110101",
+          "adname": "东城区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "5916730102",
+          "distance": [],
+          "alias": "紫禁城",
+          "navi_poiid": "J50F001020_559395",
+          "business_area": [],
+          "entr_location": "116.402893,39.915175",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "4.6",
+              "cost": "40.00",
+              "ticket_ordering": "1"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/f164dceba45176826926dcd832ac107c"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/2eb00f939fd800774d4b3577ad1926ea"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/678a81b70510322b60e5998ea37efbf0"
+              }
+          ],
+          "children": []
+      },
+      {
+          "id": "B000A87IUX",
+          "parent": [],
+          "name": "北京动物园",
+          "tag": [],
+          "type": "风景名胜;公园广场;动物园",
+          "typecode": "110102",
+          "biz_type": "tour",
+          "address": "西直门外大街137号",
+          "location": "116.336551,39.942131",
+          "tel": "010-68314411;010-68390274;12301",
+          "postcode": [],
+          "website": "www.beijingzoo.com",
+          "email": [],
+          "pcode": "110000",
+          "pname": "北京市",
+          "citycode": "010",
+          "cityname": "北京市",
+          "adcode": "110102",
+          "adname": "西城区",
+          "importance": [],
+          "shopid": [],
+          "shopinfo": "2",
+          "poiweight": [],
+          "gridcode": "5916723602",
+          "distance": [],
+          "alias": [],
+          "navi_poiid": "J50F001019_499845",
+          "business_area": "西直门",
+          "entr_location": "116.339548,39.938842",
+          "exit_location": [],
+          "match": "0",
+          "recommend": "0",
+          "timestamp": [],
+          "indoor_map": "0",
+          "groupbuy_num": "0",
+          "discount_num": "0",
+          "biz_ext": {
+              "rating": "3.6",
+              "cost": "10.00",
+              "ticket_ordering": "1"
+          },
+          "event": [],
+          "indoor_data": {
+              "cpid": [],
+              "floor": [],
+              "truefloor": []
+          },
+          "photos": [
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/520bd9762b567b4c3f2d32d621d1c021"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/0c5a14c1c68b827d223e0d1c7d8b40fa"
+              },
+              {
+                  "title": [],
+                  "url": "http://store.is.autonavi.com/showpic/7abc3f69f60210cd7edc38b1ea84af8a"
+              }
+          ],
+          "children": []
+      }
+  ]
+}
