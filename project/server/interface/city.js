@@ -2,6 +2,8 @@
 
 import Router from 'koa-router';
 import positionModel from '../dbs/models/position';
+import provinceModel from '../dbs/models/province';
+import cityModel from '../dbs/models/city';
 
 const router = new Router({
   prefix: '/city'
@@ -36,5 +38,57 @@ router.get('/getHotCities', async (ctx) => {
     code: 0
   };
 });
+
+// 获取所有省
+router.get('/getProvinces', async (ctx) => {
+  const result = await provinceModel.find({});
+  ctx.body = {
+    provinces: result.map(item => {
+      return {
+        id: item.id,
+        value: item.value
+      };
+    }),
+    code: 0
+  };
+});
+
+// 查询省下所有城市
+router.get('/getCitiesByProvince', async (ctx) => {
+  const result = await cityModel.findOne({
+    id: ctx.query.id
+  });
+  ctx.body = {
+    cities: result.value,
+    code: 0
+  };
+});
+
+// 获取所有城市
+router.get('/getAllCities', async (ctx) => {
+  const result = await cityModel.find({});
+  ctx.body = {
+    cities: result.map(item => {
+      return {
+        value: item.value
+      }
+    }),
+    code: 0
+  };
+});
+
+// 获取热门城市
+router.get('/hotCity', async ctx => {
+  const result = await cityModel.find() // bug! Did not return the full city name
+  ctx.body = {
+    city: result.map(item => {
+      const value = item.value
+      const valueArray = [...value]
+      return {
+        value: valueArray
+      }
+    })
+  }
+})
 
 export default router;

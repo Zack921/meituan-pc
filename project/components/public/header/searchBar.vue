@@ -32,7 +32,7 @@
           </dl>
         </div>
         <p class="suggest">
-          <a href="#">故宫博物院</a>
+          <nuxt-link to="/products?keyword=故宫博物院">故宫博物院</nuxt-link>
           <a href="#">故宫博物院</a>
           <a href="#">故宫博物院</a>
         </p>

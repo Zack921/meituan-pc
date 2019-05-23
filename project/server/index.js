@@ -9,6 +9,10 @@ import dbConfig from './dbs/config';
 import userInterface from './interface/user';
 import cityInterface from './interface/city';
 import homeInterface from './interface/home';
+import productsInterface from './interface/products';
+import detailInterface from './interface/detail';
+import cartInterface from './interface/cart';
+import orderInterface from './interface/order';
 import session from 'koa-generic-session'; // 操作session的中间件
 import redisStore from 'koa-redis';
 import passport from 'koa-passport';
@@ -59,6 +63,10 @@ async function start() {
   app.use(userInterface.routes(), userInterface.allowedMethods());
   app.use(cityInterface.routes(), cityInterface.allowedMethods());
   app.use(homeInterface.routes(), homeInterface.allowedMethods());
+  app.use(productsInterface.routes(), productsInterface.allowedMethods());
+  app.use(detailInterface.routes(), detailInterface.allowedMethods());
+  app.use(cartInterface.routes(), cartInterface.allowedMethods());
+  app.use(orderInterface.routes(), orderInterface.allowedMethods());
 
   app.use(ctx => {
     ctx.status = 200
